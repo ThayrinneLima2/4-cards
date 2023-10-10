@@ -19,7 +19,7 @@
 }
 
 .titleTop{
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,4 +170,30 @@
     font-size: 11px; 
     text-align: center;
     font-family: "Poppins";
+}
+
+@media screen and (min-width:375px) and (max-width:779px){
+    .titleTop1{
+        font-size: 25px;
+    }
+    .titleTop2{
+        font-size: 25px;
+    }
+    .titleTop3{
+        width: 100%;
+    }
+    .box{
+        flex-direction: column;
+        height: auto;
+        row-gap: 25px;
+        margin-top: 25px;
+    }
+    .side{
+        width: 100%;
+    }
+    .midle{
+        width: 100%;
+        row-gap: 25px;
+    }
+    
 }
